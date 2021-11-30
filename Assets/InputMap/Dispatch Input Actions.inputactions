@@ -1,0 +1,125 @@
+{
+    "name": "Dispatch Input Actions",
+    "maps": [
+        {
+            "name": "Normal",
+            "id": "df2627ce-8bb5-4563-adf0-1d641d9d2c59",
+            "actions": [
+                {
+                    "name": "DeleteLastNode",
+                    "type": "Button",
+                    "id": "32966355-0947-4d40-ae9e-53ab99460fea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveModeToggle",
+                    "type": "Value",
+                    "id": "875073f6-5a66-447c-a0a6-7d8b0913a49e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6dd8545-fc2e-49ef-90ab-22b4bc7f5cb6",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeleteLastNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e2270c9-99fa-4458-80e8-5d7e896eb456",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActiveModeToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MapMode",
+            "id": "6eab3dc3-560d-4cb2-b7e5-69c6ea238e0a",
+            "actions": [
+                {
+                    "name": "activateSelectionMode",
+                    "type": "Value",
+                    "id": "60593b48-e79d-43af-9503-755f381a81b8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "backSpace",
+                    "type": "Value",
+                    "id": "66705391-6884-459f-8129-344fbcd0a0b9",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "97ce964d-a42b-4228-b775-9b892ea4e805",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "activateSelectionMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "838326c7-fd0d-4847-a948-b4741d11bcb2",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "backSpace",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "07119eb5-2398-45f6-ad9a-f7a5cbfddc58",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "cb238392-58a4-4ab1-972f-7fab20a038ed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b8f47f7-2407-47c5-80cd-6b46d7a9a334",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
